@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Nebulon Project",
+    "desc": "Minecraft eklentileri, discord botları ve web yazılımları geliştiriyoruz.",
+    "btn": "Projelerimizi Gör"
+  },
+  "skills": [
+    {
+      "title": "Web Geliştirme",
+      "desc": "HTML, CSS, JavaScript",
+      "icon": "fas fa-laptop-code"
+    },
+    {
+      "title": "Minecraft Plugin Geliştiriciliği",
+      "desc": "Spigot, Folia, Velocity",
+      "icon": "fas fa-cube"
+    },
+    {
+      "title": "Backend",
+      "desc": "Node.js, Java, Sql",
+      "icon": "fas fa-server"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Spawner System",
+      "desc": "Minecraft Spawner Eklentisi.",
+      "link": "https://modrinth.com/plugin/spawnersystem",
+      "img": "http://localhost:3000/assets/proje1.png"
+    },
+    {
+      "title": "EnvProtect",
+      "desc": "Minecraft Envanter Koruma Eklentisi.",
+      "link": "https://modrinth.com/plugin/envprotect",
+      "img": "http://localhost:3000/assets/proje2.png"
+    },
+    {
+      "title": "PhantomBlocker",
+      "desc": "Minecraft Phantom Yaratığının Doğmasını Engelleyen Eklenti.",
+      "link": "https://modrinth.com/plugin/phantomblocker",
+      "img": "http://localhost:3000/assets/proje3.png"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Discord",
+      "link": "https://discord.com/invite/kj5grZuxyQ",
+      "icon": "fab fa-discord"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/onurrrk",
+      "icon": "fab fa-github"
+    }
+  ],
+  "footer": "© 2025 Nebulon Tüm hakları saklıdır."
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div class="dashboard-container">
+    <h2>🚀 Dashboard</h2>
+
+    <section class="dashboard-section">
+        <h3>Hero Alanı</h3>
+        <input type="text" id="hero-title-input" placeholder="Başlık">
+        <input type="text" id="hero-desc-input" placeholder="Açıklama">
+        <input type="text" id="hero-btn-input" placeholder="Buton Metni">
+        <button id="save-hero">Kaydet</button>
+    </section>
+
+    <section class="dashboard-section">
+        <h3>Yetenekler</h3>
+        <div id="skills-list"></div>
+        <input type="text" id="skill-icon" placeholder="Icon class (fas fa-laptop-code)">
+        <input type="text" id="skill-title" placeholder="Başlık">
+        <input type="text" id="skill-desc" placeholder="Açıklama">
+        <button id="add-skill">Ekle</button>
+    </section>
+
+    <section class="dashboard-section">
+        <h3>Projeler</h3>
+        <div id="projects-list"></div>
+        <input type="text" id="project-title" placeholder="Başlık">
+        <input type="text" id="project-desc" placeholder="Açıklama">
+        <input type="file" id="project-img-file" accept="image/*">
+        <input type="text" id="project-link" placeholder="Proje Link">
+        <button id="add-project">Ekle</button>
+    </section>
+
+    <section class="dashboard-section">
+        <h3>İletişim</h3>
+        <div id="contact-list"></div>
+        <input type="text" id="contact-name" placeholder="Ad/Platform">
+        <input type="text" id="contact-link" placeholder="Link">
+        <input type="text" id="contact-icon" placeholder="Icon class (fab fa-discord)">
+        <button id="add-contact">Ekle</button>
+    </section>
+
+    <section class="dashboard-section">
+        <h3>Footer</h3>
+        <input type="text" id="footer-input" placeholder="Footer Metni">
+        <button id="save-footer">Kaydet</button>
+    </section>
+
+<div class="logout-wrapper">
+    <button id="logout"><i class="fas fa-right-from-bracket"></i></button>
+</div>
+
+
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>
